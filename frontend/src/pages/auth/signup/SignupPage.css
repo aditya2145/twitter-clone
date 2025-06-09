@@ -1,0 +1,17 @@
+input {
+    border: 1px solid #71767B;
+    padding: 0.7rem 1rem;
+    border-radius: 0.6rem;
+}
+
+.btn {
+    padding: 0.6rem 1.5rem;
+    border-radius: 2rem;
+    background-color: #0f6ba8;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #0f6ba896;
+    transition: all 0.3s;
+}
