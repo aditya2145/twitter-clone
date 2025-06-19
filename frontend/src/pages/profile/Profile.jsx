@@ -52,7 +52,7 @@ const Profile = () => {
   const amIFollowing = authUser?.following.includes(user?._id);
 
   return (
-    <div className='w-[45%] h-screen '>
+    <div className='w-full xl:w-[45%] h-screen '>
       { (isLoading || isRefetching) && (
         <Loader />
       )}

@@ -76,7 +76,7 @@ const Conversation = () => {
     }, [authUser?._id, user?._id, username, queryClient]);
 
     return (
-        <div className='w-[45%] h-screen flex flex-col'>
+        <div className='w-full xl:w-[45%] h-screen flex flex-col'>
             <div className='px-4 py-2 bg-[#252424] flex justify-between items-center'>
                 <div className='flex items-center gap-3'>
                     <div className='w-[3.2rem] h-[3.2rem] rounded-full overflow-hidden'>

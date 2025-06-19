@@ -27,7 +27,7 @@ const RightPanel = () => {
   })
 
   return (
-    <div className='top-0 right-0 overflow-y-auto border-l border-l-[#2F3336] w-[30%] py-0.5 px-4 flex flex-col gap-6 '>
+    <div className='hidden xl:flex xl:w-[30%] overflow-y-auto border-l border-l-[#2F3336]  py-0.5 px-4 flex-col gap-6'>
       <div className='border-1 rounded-3xl px-4 border-[#656363] flex items-center w-fit'>
         <span className='w-[1.3rem] h-[1.3rem] overflow-hidden'>
           <img className='h-full w-full object-cover' src={SearchIcon} alt="search_logo" />

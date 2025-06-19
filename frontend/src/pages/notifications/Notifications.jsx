@@ -29,7 +29,7 @@ const Notifications = () => {
 
 
   return (
-    <div className='w-[45%] h-screen'>
+    <div className='w-full xl:w-[45%] h-screen'>
       <div className='p-4 flex items-center border border-[#2F3336] justify-between'>
         <div className='text-2xl font-bold'>Notifications</div>
         <button onClick={() => deleteNotificationsMutation()} className='bg-white hover:bg-[#e3e2e2] transition-colors duration-300 text-black font-semibold rounded-2xl px-4 py-1'>Delete All</button>

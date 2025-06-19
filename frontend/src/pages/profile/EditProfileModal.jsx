@@ -56,7 +56,7 @@ const EditProfileModal = ({ user, profileModal, setProfileModal }) => {
             <div onClick={() => setProfileModal(false)} className='fixed inset-0 bg-[#242D34] opacity-70 z-60'></div>
 
             {/* Modal */}
-            <div className='overflow-auto w-[40vw] max-h-[80vh] fixed p-4 flex flex-col gap-6 z-70 top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-black rounded-md'>
+            <div className='overflow-auto w-[80vw] xl:w-[40vw] max-h-[80vh] fixed p-4 flex flex-col gap-6 z-70 top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-black rounded-md'>
                 <div className='flex items-center justify-between'>
                     <div className='flex items-center gap-2 text-xl font-bold'>
                         <button onClick={() => setProfileModal(false)}>&times;</button>

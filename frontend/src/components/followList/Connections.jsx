@@ -34,7 +34,7 @@ const Connections = () => {
     }
 
     return (
-        <div className='w-[45%]'>
+        <div className='w-full xl:w-[45%]'>
             <header className='flex flex-col gap-4 border-b border-b-[#343333]'>
                 <div className='flex gap-5'>
                     <button onClick={() => navigate(-1)} className='text-4xl'>&larr;</button>

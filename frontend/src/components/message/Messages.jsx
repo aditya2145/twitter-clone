@@ -15,7 +15,7 @@ const Messages = () => {
     })
 
   return (
-    <div className='w-[45%]'>
+    <div className='w-full xl:w-[45%]'>
         <div className='p-4 font-bold text-2xl text-[#f0ebeb]'>Messages</div>
 
         <div>
